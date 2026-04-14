@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Программы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что получают школы-партнеры</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Образовательные модули",
+              description: "Актуальные программы по STEM, искусству и спорту от лучших экспертов «Сириуса»",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Методическая поддержка",
+              description: "Онлайн-консультации, вебинары и материалы для педагогов школ-партнеров",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Олимпиады и конкурсы",
+              description: "Участие в федеральных и региональных интеллектуальных соревнованиях",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Профориентация",
+              description: "Экскурсии, стажировки и встречи с наставниками ведущих компаний страны",
               direction: "bottom",
             },
           ].map((service, i) => (
